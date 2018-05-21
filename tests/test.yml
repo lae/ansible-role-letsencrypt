@@ -1,0 +1,5 @@
+---
+- hosts: all
+  tasks:
+    - name: Ensure certbot is usable
+      command: certbot --version
